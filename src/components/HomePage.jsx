@@ -29,10 +29,12 @@ function HomePage() {
 
       {/* Welcome Section with Background Image */}
       <section className="welcome-section">
-        <div className="background-image">
-          {/* <img src="/images/bg-vibeques.jpg" alt="VibeQuest Background" className="bg-img" /> */}
-        </div>
-        <h2 className="typewriter">{"Welcome to VibeQuest"}</h2>
+        <img 
+          src="/images/bg-vibequest.jpg" 
+          alt="VibeQuest Background" 
+          className="bg-img" 
+        />
+        <h2 className="typewriter">Welcome to VibeQuest</h2>
         <p>Your ultimate destination for all things gaming.</p>
         <div className="buttons">
           <button className="btn-primary">Start Playing</button>
@@ -86,7 +88,7 @@ function HomePage() {
 
       {/* About Section */}
       <section className="about-section">
-        <div className="about-text">
+        <div className="about-text1">
           <h2>About VibeQuest</h2>
           <p>
             VibeQuest is your ultimate gaming platform where adventure, strategy, and fun collide. Explore various genres, discover new challenges, and immerse yourself in thrilling experiences.
